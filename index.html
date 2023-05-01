@@ -37,7 +37,31 @@
         display: block;
         margin: auto;
         
+    }
+
+    .app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         
+    }
+
+    .app a {
+        box-shadow: 0 0 10px -1px black;
+        background-color: white;
+        padding: 10px 130px;
+        margin-top: 10px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+        cursor: pointer;
     }
     
      h2 {
@@ -45,50 +69,44 @@
         color: white;
        }
 
-       .app {
-       
-        text-align: center; 
-       
-       
-    }
-
-       .app p {
-        background-color: #ffffff;
-        margin-top: 10px;
-        padding: 15px 130px;
-        border-radius: 40px;
-        box-shadow: 0 0 10px -1px black;
-       
+       @media screen and (max-width:1024px) {
+        .app a {
+        padding: 10px 150px;
+        border-radius:45px;
        }
 
-       .app a {
-        text-decoration: none;
+       }
+       @media screen and (max-width:768px) {
+        .app a {
+        padding: 15px 150px;
+        border-radius:45px;
        }
 
-       a:hover {
-        color: white;
-       }
-
-       p:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-        transition: 1.5s;
-        background-color: rgba(245, 245, 220, 0.322);
        }
 
        @media screen and (max-width:480px) {
-        .app p {
+        .app a {
         padding: 15px 10px;
         border-radius:45px;
+       }
+
+       a:hover {
+        transform: scale(0);
+
        }
 
 
        }
      
        @media screen and (max-width:360px) {
-        .app p {
+        .app a {
         padding: 15px 19px;
         border-radius:45px;
+       }
+
+       a:hover {
+        transform: scale(0);
+        
        }
 
        .cabecalo img {
@@ -103,6 +121,8 @@
        }
      
       
+     
+      
 
     </style>
 </head>
@@ -115,29 +135,29 @@
             </div>
         </header>
         <div class="app">
-            <p><a href="http://d.appcine.xyz/app/P2%20Cine_52_signed.apk" download="">P2PCine v5.2 P2PBinstream</a></p>
-            <p><a href="">P2PCine v4.58 Smart TV-TCL P2PBinstream</a></p>
-            <p><a href="">P2P 6.0 BINSTREAM</a></p>
-            <p><a href="">P2 CINE TV</a></p>
-            <p><a href="">P2 CINE TV 2</a></p>
-            <p><a href="">TURBOBOX1</a></p> 
-            <p><a href="">TURBOBOX 2</a></p>
-            <p><a href="">APK WebTurbo Mult V5 XC</a></p>
-            <p><a href="">APK Webturbo Smart STB 142.44</a></p>
-            <p><a href="">TURBO VIP</a></p>
-            <p><a href="">APK Black infor</a></p>
-            <p><a href="">CINE P2</a></p>
-            <p><a href="">P2 CINE</a></p>
-            <p><a href="">P2 CINE LIVE GX</a></p>
-            <p><a href="">APK WebTurbo Smarters Mult</a></p>
-            <p><a href="">TURBO BLACK</a></p>
-            <p><a href="">P2 CINE TV GX</a></p>
-            <p><a href="">P2P CINE TV</a></p>
-            <p><a href="">P2 TURBO NITRO</a></p>
-            <p><a href="">PLAYXC 3</a></p>
-            <p><a href="">P2P MULTI</a></p>
-            <p><a href="">ACESSO PAINEL</a></p>
-            <p><a href="">SITE Webplayer</a></p>
+            <a href="http://d.appcine.xyz/app/P2%20Cine_52_signed.apk" download="">P2PCine v5.2 P2PBinstream</a>
+            <a href="">P2PCine v4.58 Smart TV-TCL P2PBinstream</a>
+            <a href="">P2P 6.0 BINSTREAM</a>
+            <a href="">P2 CINE TV</a>
+            <a href="">P2 CINE TV 2</a>
+            <a href="">TURBOBOX1</a>
+            <a href="">TURBOBOX 2</a>
+            <a href="">APK WebTurbo Mult V5 XC</a>
+            <a href="">APK Webturbo Smart STB 142.44</a>
+            <a href="">TURBO VIP</a>
+            <a href="">APK Black infor</a>
+            <a href="">CINE P2</a>
+            <a href="">P2 CINE</a>
+            <a href="">P2 CINE LIVE GX</a>
+            <a href="">APK WebTurbo Smarters Mult</a>
+            <a href="">TURBO BLACK</a>
+            <a href="">P2 CINE TV GX</a>
+            <a href="">P2P CINE TV</a>
+            <a href="">P2 TURBO NITRO</a>
+            <a href="">PLAYXC 3</a>
+            <a href="">P2P MULTI</a>
+            <a href="">ACESSO PAINEL</a>
+            <a href="">SITE Webplayer</a>
         </div>
     </main>
 </body>
